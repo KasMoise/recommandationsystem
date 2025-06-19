@@ -4,10 +4,10 @@ import numpy as np
 
 
 st.header("Books Recommander System using Machine Learning")
-model=pickle.load(open('artifacts/model.pkl','rb'))
-books_name=pickle.load(open('artifacts/books_name.pkl','rb'))
-final_rating=pickle.load(open('artifacts/final_rating.pkl','rb'))
-book_pivot=pickle.load(open('artifacts/book_pivot.pkl','rb'))
+model=pickle.load(open('model.pkl','rb'))
+books_name=pickle.load(open('books_name.pkl','rb'))
+final_rating=pickle.load(open('final_rating.pkl','rb'))
+book_pivot=pickle.load(open('book_pivot.pkl','rb'))
 
 
 def fecth_poster(suggestion):
